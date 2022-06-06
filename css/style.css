@@ -1,0 +1,112 @@
+/* Définition de la " bloc page" */
+#bloc_page
+{
+    width: 992px;
+    margin: auto;
+	
+}
+
+/* Police, taille des caractères et couleur d'arrière-plan */
+
+
+body 
+{
+font-family:  'Segoe Script', MV Boli, Calibri, Verdana, Arial, sans-serif;
+background-color: #537960;
+font-size: 14px;
+}
+
+/*Propriétés du titre */  
+ h1 
+{	
+text-align: center;
+top= 0px;
+font-size: 50px;
+ color:gold;
+}
+
+#centrage-elements, #tableau2, #resultat, #ancre, #tableau
+{
+	width:800px;
+	margin:auto;
+	text-align:center;
+}
+/*style des boutons*/
+.buttonstyle{
+font-family:'Segoe Script', MV Boli, Calibri, Verdana, Arial, sans-serif;
+color:white;
+font-size: 20px;
+font-weight : bold;
+background-color: #537960;
+border : 1px solid white;
+border-radius : 5px;
+cursor : pointer;"
+}
+
+
+/*Tirage au sort des chiffres */  	
+#tableau2
+{	
+color : white;	
+padding-bottom:3px; 
+}
+	
+				        
+#resultat
+ {
+font-size: 50px;
+font-weight: bold;
+color: white;
+padding-top:20px;
+}
+	
+#ancre 
+{
+padding-top:25px;
+padding-bottom:25px;
+font-size: 	25px;
+font-weight: bold;
+color: red;
+}
+
+/*Tirage au sort des lettres */  
+	        
+#tableau 
+{		    
+font-size: 50px;
+font-weight: bold;
+color: white;
+text-align:center;	
+}
+
+#ancrage
+{
+width:300px;
+margin:auto;
+text-align:center;
+font-size: 30px;
+font-weight: bold;
+color: red;
+padding-bottom:20px;
+}
+
+/* dimensionnement du "textaera" */  
+textarea
+{
+width: 400px;
+height: 300px;
+font-size: 15px;
+}
+
+/*brouillon*/
+
+#draft {
+	font-weight:bold; 
+	font-size: 22px;
+}
+
+#name
+{
+	font-size: 16px;
+	background-image: url('../img/Grille1.jpg');
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="description" content="Jeu des chiffres et des lettres">
+            <meta name="author" content="Lionel Coutinot">
+            <meta name="revisit-after" content="30 days">
+            <meta http-equiv="title" content="indexchrono">
+            <meta name="distribution" content="Global">
+            <meta name="rating" content="General">
+            <meta name="robots" content="All">
+            <meta http-equiv="content-language" content="fr"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">  
+            <title>Des chiffres et des lettres</title>
+            <link rel="stylesheet" href="css/style.css">
+    </head>
+	<body>
+        <div id="bloc_page">  
+			<h1>DES CHIFFRES ET DES LETTRES</h1>
+			<div id="centrage-elements">
+                <form name="form1" id="form1">
+					<input type="button" value="Les chiffres" class="buttonstyle" onclick="tirageNum();"/>                    
+					<input type="button"   value="L'éponge"  class="buttonstyle" onclick="window.location.reload()"/>
+					<input type="button" value="Les lettres" class="buttonstyle" onclick="createBouton()" /> 
+			        <div id="ancre">	</div>
+                    <table id="tableau2">
+			        <tr>
+			        </tr>
+			        </table>
+                    <table id="resultat">
+			        <tr>
+				    </tr>
+                    </table>		
+                    <table id="tableau">			
+           	        </table>
+					<div id="ancrage">  </div>
+                    <div>				
+			            <label for="nom"  id="draft">Votre brouillon !</label>
+                    </div>
+                    <textarea name="nom" id="name"> </textarea>				
+			    </form>		       
+			</div>            
+		</div>
+		<script src="scripts/script.js"></script>
+    </body>
+</html>
